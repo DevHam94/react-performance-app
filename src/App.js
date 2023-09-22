@@ -23,8 +23,8 @@ function App() {
       />
 
       <div style={{ display: 'flex' }}>
-        <A />
-        <B />
+        <A message={value} posts={posts} />
+        <B message={value} posts={posts} />
       </div>
     </div>
   );
